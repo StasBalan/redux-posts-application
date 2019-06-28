@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../logo.svg';
 import './App.css';
 
-import Postform from '../components/Postform';
+import PostForm from '../components/Postform';
 import Posts from '../components/Posts';
 
 
@@ -14,7 +14,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>welcome to react</p>
       </header>
-        <Postform />
+        <PostForm />
+        <hr />
         <Posts />
     </div>
   );
